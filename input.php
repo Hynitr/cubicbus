@@ -68,6 +68,7 @@ if(!isset($_GET['id'])) {
                                         <div class="form-group">
                                             <label>Select Term</label>
                                             <select id="trm" class="form-control">
+                                                <option id="trm"><?php echo $_SESSION['trm'] ?></option>
                                                 <option id="trm">1st Term</option>
                                                 <option id="trm">2nd Term</option>
                                                 <option id="trm">3rd Term</option>

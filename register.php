@@ -39,7 +39,7 @@ include("functions/top.php"); ?>
                                         <!-- text input -->
                                         <div class="form-group">
                                             <label>Admission No</label>
-                                            <input type="text" id="adid" class="form-control" placeholder="PMS/">
+                                            <input type="text" id="adid" class="form-control" placeholder="CJS/">
                                         </div>
                                     </div>
                                     <div class="col-sm-4">
@@ -56,15 +56,14 @@ include("functions/top.php"); ?>
                                             <label>Select Class</label>
                                             <select id="clss" class="form-control">
                                                 <option id="clss">Reception</option>
-                                                <option id="clss">KG 1</option>
-                                                <option id="clss">KG 2</option>
-                                                <option id="clss">Nursery 1</option>
-                                                <option id="clss">Nursery 2</option>
-                                                <option id="clss">Basic 1</option>
-                                                <option id="clss">Basic 2</option>
-                                                <option id="clss">Basic 3</option>
-                                                <option id="clss">Basic 4</option>
-                                                <option id="clss">Basic 5</option>
+                                                <option id="clss">Transition</option>
+                                                <option id="clss">Nido 1</option>
+                                                <option id="clss">Nido 2</option>
+                                                <option id="clss">Grade 1</option>
+                                                <option id="clss">Grade 2</option>
+                                                <option id="clss">Grade 3</option>
+                                                <option id="clss">Grade 4</option>
+                                                <option id="clss">Grade 5</option>
                                                 <option id="clss">J.S.S 1</option>
                                                 <option id="clss">J.S.S 2</option>
                                                 <option id="clss">J.S.S 3</option>

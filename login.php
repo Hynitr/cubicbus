@@ -10,7 +10,7 @@ include("functions/init.php");
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Title -->
-    <title>Paradise Model School ~ Bursary</title>
+    <title>Cubic Joy School ~ Bursary</title>
 
     <!-- Favicon -->
     <link rel="icon" href="img/2.png">
@@ -30,7 +30,7 @@ include("functions/init.php");
     <!-- Automatic element centering -->
     <div class="lockscreen-wrapper">
         <div class="lockscreen-logo">
-            <a href="https://paradisemodelschool.com.ng"><b>Paradise Bursary</b></a>
+            <a href="https://cubicjoyschool.com"><b>Cubic Joy School Bursary</b></a>
         </div>
         <!-- User name -->
         <div class="lockscreen-name">Admin Login</div>
@@ -65,8 +65,8 @@ include("functions/init.php");
         </div>
 
         <div class="lockscreen-footer text-center">
-            Copyright &copy; <?php echo date("Y"); ?> <b><a href="https://paradisemodelschool.com.ng"
-                    class="text-black">Paradise Model School</a></b><br>
+            Copyright &copy; <?php echo date("Y"); ?> <b><a href="https://Cubic Joy Schoolmodelschool.com.ng"
+                    class="text-black">Cubic Joy School</a></b><br>
             Developed by <a target="_blank" href="https://hynitr.com" class="text-black"> hynitr</a>
         </div>
     </div>

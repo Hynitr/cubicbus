@@ -85,7 +85,7 @@ if($_SESSION['trm'] == '2nd Term') {
     if($_SESSION['trm'] == '3rd Term') {
 
     //get all payement record
-    $sql = "SELECT *, sum(`fst`) as fee, sum(`snd`) as trdd FROM student AND `adid` = '$adid'";
+    $sql = "SELECT *, sum(`fst`) as fee, sum(`snd`) as trdd FROM student WHERE `adid` = '$adid'";
     $res = query($sql);
     $row = mysqli_fetch_array($res);
     
@@ -119,7 +119,7 @@ if($_SESSION['trm'] == '2nd Term') {
 
 <head>
     <meta charset="utf-8" />
-    <title>Paradise Bursary</title>
+    <title>Cubic Joy School Bursary</title>
     <link rel="icon" href="img/2.png" type="image/ico" />
     <style>
     .invoice-box {
@@ -242,9 +242,9 @@ if($_SESSION['trm'] == '2nd Term') {
                     <table>
                         <tr>
                             <td>
-                                Paradise Model School<br />
-                                Ota, Ogun State.<br />
-                                +234 816 966 4313
+                                Cubic Joy School<br />
+                                Itele road, Ota, Ogun State.<br />
+                                +234 (0) 811 0642 410
                             </td>
 
                             <td>
