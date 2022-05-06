@@ -179,7 +179,7 @@ if(isset($_POST['pname']) && isset($_POST['clss']) && isset($_POST['fst']) && is
 	} else {
 
 
-	$fid = 'pms/'.rand(0, 9999);
+	$fid = 'cjs/'.rand(0, 9999);
 	$der = $_SESSION['aca'];
 
 	//get first name
@@ -510,7 +510,7 @@ function outstanding($ses, $data) {
 
 	} else {
 		
-		$spillid = 'pmsspill/'.rand(0, 9999);
+		$spillid = 'cjsspill/'.rand(0, 9999);
 		
 		//get student/pupil details
 		$adid 	= $vfh['adid'];
@@ -582,7 +582,7 @@ if (isset($_POST['std']) && isset($_POST['trm']) && isset($_POST['fee']) && isse
 
 	$red  = $_SESSION['aca'];
 
-	$fid = 'pmstran/'.rand(0, 9999);
+	$fid = 'cjstran/'.rand(0, 9999);
 
 	if($pdat == null || $pdat == "") {
 
@@ -765,7 +765,7 @@ if(isset($_POST['std']) && isset($_POST['fee']) && isset($_POST['mdd']) && isset
 	$pdet	= $_POST['pdet'];
 	$desc   = "SpillOver Payment";
 
-	$fid = 'pmstran/'.rand(0, 9999);
+	$fid = 'cjstran/'.rand(0, 9999);
 	$date = date("Y-m-d");
 
 	
@@ -883,7 +883,7 @@ if(isset($_POST['cinmdd']) && isset($_POST['cinfee']) && isset($_POST['cinstd'])
 		$dat = $cusdate;
 	}	
 
-	$cusid = 'pmstran/'.rand(0, 9999);
+	$cusid = 'cjstran/'.rand(0, 9999);
 
 	//get student record
 	$sql = "SELECT * FROM student WHERE `adid` = '$std'";
@@ -935,7 +935,7 @@ if(isset($_POST['exname']) && isset($_POST['examt']) && isset($_POST['extype']) 
 	$date   = date("Y-m-d h:i:sa");
 	$ses    = $_SESSION['aca'];
 	$trm    = $_SESSION['trm'];
-	$expid = 'pmsexp/'.rand(0, 9999);
+	$expid = 'cjsexp/'.rand(0, 9999);
 
 	$sql = "INSERT INTO tracker(`trackid`, `name`, `date`, `session`, `term`, `descrip`, `type`, `mode`, `amount`, `qty` , `total`)";
 	$sql .= "VALUES('$expid', '$exname', '$date', '$ses', '$trm', '$exdesc', '$extype', '$expay', '$examt', '$qty', '$tot')";
