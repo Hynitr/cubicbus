@@ -39,26 +39,22 @@ include("functions/top.php");
                             <label for="exampleInputPassword1">Select a Class .:</label>
 
                             <select id="clss" class="form-control">
-
-                                <option id="clss">Reception</option>
-                                <option id="clss">KG 1</option>
-                                <option id="clss">KG 2</option>
-                                <option id="clss">Nursery 1</option>
-                                <option id="clss">Nursery 2</option>
-                                <option id="clss">Basic 1</option>
-                                <option id="clss">Basic 2</option>
-                                <option id="clss">Basic 3</option>
-                                <option id="clss">Basic 4</option>
-                                <option id="clss">Basic 5</option>
-                                <option id="clss">J.S.S 1</option>
-                                <option id="clss">J.S.S 2</option>
-                                <option id="clss">J.S.S 3</option>
-                                <option id="clss">S.S.S 1</option>
-                                <option id="clss">S.S.S 2</option>
-                                <option id="clss">S.S.S 3</option>
-
-                            </select>
-
+                                                <option id="clss">Reception</option>
+                                                <option id="clss">Transition</option>
+                                                <option id="clss">Nido 1</option>
+                                                <option id="clss">Nido 2</option>
+                                                <option id="clss">Grade 1</option>
+                                                <option id="clss">Grade 2</option>
+                                                <option id="clss">Grade 3</option>
+                                                <option id="clss">Grade 4</option>
+                                                <option id="clss">Grade 5</option>
+                                                <option id="clss">J.S.S 1</option>
+                                                <option id="clss">J.S.S 2</option>
+                                                <option id="clss">J.S.S 3</option>
+                                                <option id="clss">S.S.S 1</option>
+                                                <option id="clss">S.S.S 2</option>
+                                                <option id="clss">S.S.S 3</option>
+                                            </select>
                         </div>
 
                         <div class="form-group">
@@ -82,7 +78,7 @@ include("functions/top.php");
                         <div class="form-group">
                             <label for="exampleInputPassword1">Select Term .:</label>
                             <select name="ressbj" id="ressbj" class="form-control">
-
+                                <option id="ressbj"><?php echo $_SESSION['trm'] ?></option>
                                 <option id="ressbj">1st Term</option>
                                 <option id="ressbj">2nd Term</option>
                                 <option id="ressbj">3rd Term</option>

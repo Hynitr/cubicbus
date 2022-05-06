@@ -46,7 +46,7 @@ include("functions/top.php");
 
                           ?>
 
-                                <option name="class" id="clss"><?php echo $row['fname'] ?> FAMILY
+                                <option name="class" id="clss"><?php echo strtoupper($row['fname']) ?> FAMILY
                                 </option>
                                 <?php
                         }
@@ -78,7 +78,7 @@ include("functions/top.php");
                         <div class="form-group">
                             <label for="exampleInputPassword1">Select Term .:</label>
                             <select name="ressbj" id="ressbj" class="form-control">
-
+                                <option id="ressbj"><?php echo $_SESSION['trm'] ?></option>
                                 <option id="ressbj">1st Term</option>
                                 <option id="ressbj">2nd Term</option>
                                 <option id="ressbj">3rd Term</option>
