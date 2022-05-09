@@ -151,10 +151,10 @@ $bal = $amt - $mm;
                 <td colspan="2">
                     <table>
                         <tr>
-                            <td>
-                                Paradise Model School<br />
-                                Ota, Ogun State.<br />
-                                +234 816 966 4313
+                        <td>
+                                Cubic Joy School<br />
+                                Itele road, Ota, Ogun State.<br />
+                                +234 (0) 811 0642 410
                             </td>
 
                             <td>
